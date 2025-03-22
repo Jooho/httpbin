@@ -1,4 +1,5 @@
 [[source]]
+name = "pypi"
 url = "https://pypi.python.org/simple"
 verify_ssl = true
 
@@ -9,7 +10,7 @@ brotlipy = "*"
 gevent = "*"
 Flask = "*"
 meinheld = "*"
-werkzeug = ">=0.14.1"
+werkzeug = "==2.0.3"
 six = "*"
 flasgger = "*"
 pyyaml = {git = "https://github.com/yaml/pyyaml.git"}
